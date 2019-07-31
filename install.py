@@ -6,7 +6,7 @@ import sys
 import subprocess
 
 # Simple routine for asking a yes/no question.
-prompt = lambda q: raw_input(q).lower().strip()[0] == "y" or prompt(q)
+prompt = lambda q: input(q).lower().strip()[0] == "y" or prompt(q)
 
 # Prompt for German Umlauts
 if prompt("Do you need German Umlauts?"):
