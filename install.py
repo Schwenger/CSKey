@@ -5,7 +5,14 @@ import platform
 import sys
 import subprocess
 
-filename = "CSKeyboardLayout.keylayout"
+# Simple routine for asking a yes/no question.
+prompt = lambda q: raw_input(q).lower().strip()[0] == "y" or prompt(q)
+
+# Prompt for German Umlauts
+if prompt("Do you need German Umlauts?"):
+  filename = "CSKeyboardLayoutWithUmlauts.keylayout"
+else:
+  filename = "CSKeyboardLayout.keylayout"
 
 if not os.path.isfile(filename):
   print(f"File {filename} not found. Did you move it?")
