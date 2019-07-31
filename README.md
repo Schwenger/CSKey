@@ -20,6 +20,7 @@ So, the last remaining problematic case is theta (θ/Θ). And, boy, this letter 
 Long story short: theta is on the j key. No mnemonic, no clever connection. Sorry.
 
 Let's sum up the less obvious choices as a cheat sheet:
+
 | Greek Letter | Key         | Mnemonic                         |
 | ------------ | ----------- | -------------------------------- |
 | ψ/Ψ          | y/Y         | ψ is y with an extra prong       |
@@ -30,11 +31,12 @@ Let's sum up the less obvious choices as a cheat sheet:
 #### German Umlauts
 So if you're one of us Germans and sometimes need to throw a couple of üs and äs into the mix, I got you covered. During setup, I'll ask whether you need Umlauts, if you type something starting with `y`, I'll install a slightly modified option layer for you.
 
-You can find ä on the a key, ü on the u key, ö on the o key, and -- I know, it's technically not an Umlaut -- ß on the s key. Fun fact: there is even the uppercase ẞ available, even though barely anyone knows about its existence (because it's pointless most of the time).
+You can find ä on the a key, ü on the u key, ö on the o key, and --- I know, it's technically not an Umlaut --- ß on the s key. Fun fact: there is even the uppercase ẞ available, even though barely anyone knows about its existence (because it's pointless most of the time).
 
-So, let's discuss conflicts. The ö evicts good ol' omega (ω/Ω). That's not too bad, so you just need to fall back on the w key. Phew. The ü evicts nothing at all -- even better! The ß kicked σ off its place, it now lives on the q key. That's easy to remember because σ is just a slightly misshaped q that was rotated counter-clockwise by a couple of degrees. Lastly, the α gave me a bit of a head ache. I opted for putting it on the v key because a capital A somewhat looks like a V rotated by 180 degrees. Not perfect, but the best I could come up with. That's what you get for typing German!
+So, let's discuss conflicts. The ö evicts good ol' omega (ω/Ω). That's not too bad, so you just need to fall back on the w key. Phew. The ü evicts nothing at all --- even better! The ß kicked σ off its place, it now lives on the q key. That's easy to remember because σ is just a slightly misshaped q that was rotated counter-clockwise by a couple of degrees. Lastly, the α gave me a bit of a head ache. I opted for putting it on the v key because a capital A somewhat looks like a V rotated by 180 degrees. Not perfect, but the best I could come up with. That's what you get for typing German!
 
 Let's sum up the less obvious choices again:
+
 | Greek Letter/Umlaut | Key         | Mnemonic                         |
 | ------------------- | ----------- | -------------------------------- |
 | ψ/Ψ                 | y/Y         | ψ is y with an extra prong       |
@@ -45,7 +47,7 @@ Let's sum up the less obvious choices again:
 | α/A                 | v/V         | A is a rotated V missing its bar |
 
 ### Math Mode
-So far we just combined two character sets -- nothing to write home about.
+So far we just combined two character sets --- nothing to write home about.
 Let's add math to the mix, shall we?
 
 For this, we will enter the math mode of the keyboard layout. Strictly speaking, the math mode is a a dead accented character. When you press option+shift+m (which is the same as option+M), the next character will receive special treatment. This will only affect the next character, so to write a sequence of letters you will always need to press option+M before each letter anew. While this put me off initially, this never turned out to be annoying. Even when you want to typeset a formula such as `∀φ ∈ P: ◻φ → (◇¬α ∨ ◻β)`, you will spend the most time being glad that not every character has to be spelled out entirely and preceded by a backslash `\forall\phi\in P\colon \LTLbox\phi \implies (\LTLdiamond\neg\alpha \lor \LTLbox\beta)`. Trust me on this: it's not a big deal, you'll see.
@@ -67,11 +69,11 @@ The mnemonics are incomplete, sometimes there is none but I found the symbol use
 | ----------- | --- | -------- |
 | ¬   | 1   | 1 features ! which is used for negation |
 | ²/³ | 2/3 | |
-| ∧/∨ | &/| | |
+| ∧/∨ | &/\| | |
 | ×   | *   | Arithmetic v. Cartesian product |
-| ×   | c   | *c*ross product |
+| ×   | c   | **c**ross product |
 | → | - | Just add the hook at the end |
-| ↛ | _ | Shift version for negation |
+| ↛ | _ | Shift version for negation (doesn't work in all fonts) |
 | ≈ | = | |
 | ≠ | + | Shifted version for negation |
 | ℚ | q | |
@@ -81,14 +83,14 @@ The mnemonics are incomplete, sometimes there is none but I found the symbol use
 | ∃/∀ | e/a | |
 | ⊤ | t | true/top |
 | ⊥ | b | bot/bottom | 
-| ~ | s | \sim in LaTeX |
-| ◻/◇ | g/f | *g*lobally, *f*inally | 
+| ~ | s | `\sim` in LaTeX |
+| ◻/◇ | g/f | **g**lobally, **f**inally | 
 | ⌊/⌋/⌈/⌉ | [/]/{/} | Slightly mutilated square bracket |
 | ∫ | / | Kinds looks like it? |
 | ↯ | ` | I got nothing... |
 | ⊆/⊇ | ;/' | | 
 | ⊈/⊉ | :/" | Shifted version for negation |
-| ∈ | i | \in in LaTeX |
+| ∈ | i | `\in` in LaTeX |
 | ∉ | I | Shifted version for negation |
 | ⊕ | x | |
 | …/⋯ | ,/. | |
