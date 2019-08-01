@@ -1,6 +1,12 @@
 # CSKey
 The perfect keyboard layout for all computer scientists. It supports a wide selection of Greek letters and mathematical symbols. The entire layout was designed to feel natural. If a natural placement of the symbol was not possible, I at least made sure there is an easy mnemonic.
 
+## Installation
+On a Mac, run the installation script. It will remind you that and why it needs root privileges and instructs you how to complete installation without the script if you're unwilling to trust me. 
+All it does is copy the layout to the appropriate place.
+
+On any non-fruit-based machine, I have no idea how to install the layout. While it is easy to google that, I don't think the keyboard layout format is universally accepted. I might investigate a little more in the future if time permits.
+
 ## Layers
 There are the usual two layers for the usual roman letters in qwerty format, lowercase without any modifiers and uppercase with the shift modifier.
 
