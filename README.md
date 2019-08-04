@@ -108,6 +108,8 @@ The mnemonics are incomplete, sometimes there is none but I found the symbol use
 ## Attribution
 The layout was created using [Ukelele](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele), which looks like a spelling error but turns out to be an awesome utility to create custom keyboard layouts. Keep up the great work, folks!
 
+Thanks to [@schaefer-dev](https://github.com/schaefer-dev) for supplying a convenient way to produce icons based on a script by [@retifrav](https://github.com/retifrav/python-scripts/blob/master/generate-iconset/generate-iconset.py)
+
 # About me
 I'm a PhD student at Saarland University. Saarland is a part of Germany (at least most of the time), which explains why I took Umlauts into account. I have a fable for typography and other shit no sane person cares about. This does not restrain me from tormenting my students with the thousand ways of typesetting an "f" in LaTeX such that the kerning works out. So, naturally, I love unicode for more than its Emojis and want to use it EVERYWHEREEEE. Away with the days where you write un-rendered LaTeX code in Emails, there future is now, old man!
 
